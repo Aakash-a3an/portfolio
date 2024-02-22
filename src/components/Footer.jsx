@@ -13,7 +13,7 @@ import fifth from '../assets/5.png'
 
 const Footer = () => {
   return (
-    <footer className='h-[60vh] w-[100vw] bg-black '>
+    <footer className='h-[60vh] w-[99vw] rounded-t-3xl bg-black '>
       <div className='flex flex-row justify-between'>
       <div>
       <p className='font-semibold font-Poppins text-white lg:p-8 p-6 lg:mx-8 mx-2'>Copyright &#169; 2024 Aakash. All right received.</p>
