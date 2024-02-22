@@ -8,8 +8,7 @@ import { Link } from 'react-scroll'
 const Projects = () => {
   return (
     <><div id='projects'>
-      <p className='text-violet-400 text-4xl font-bold font-Poppins flex justify-center items-center lg:mt-0 mt-[32rem]'>Projects</p>
-      </div>
+      <p className='text-[#d64aff] text-4xl font-bold font-Poppins flex justify-center items-center lg:mt-0 mt-[42rem]'>Projects</p>
       <div className='flex justify-center items-center'>
       <div className='flex flex-wrap max-w-[60rem] justify-center lg:mt-0  items-center'>
         <div className='h-[28rem] w-[20rem] flex flex-col rounded-2xl text-white hover:text-black bg-black hover:bg-white shadow-xl transition-all duration-300 m-8'>
@@ -34,6 +33,7 @@ const Projects = () => {
         </div>
       </div>
       </div>    
+      </div>
       </>
     
   )

@@ -16,9 +16,9 @@ const Footer = () => {
     <footer className='h-[60vh] w-[100vw] bg-black '>
       <div className='flex flex-row justify-between'>
       <div>
-      <p className='font-semibold font-Poppins text-white p-8 mx-8'>Copyright &#169; 2024 Aakash. All right received.</p>
-      <p className='font-medium font-Poppins text-white px-8 mx-8 mt-10'>Social Media Links:</p>
-      <div className= 'mx-16 flex flex-col max-w-[20rem]'>
+      <p className='font-semibold font-Poppins text-white lg:p-8 p-6 lg:mx-8 mx-2'>Copyright &#169; 2024 Aakash. All right received.</p>
+      <p className='font-medium font-Poppins text-white px-8 lg:mx-8 mx-0 lg:mt-10 mt-4 '>Social Media Links:</p>
+      <div className= 'lg:mx-16 mx-8 flex flex-col max-w-[20rem]'>
         <a className='text-white mt-4 flex flex-row cursor-pointer hover:text-violet-600 items-center' href='https://www.linkedin.com/in/aakash-n0dev/'><BsLinkedin className='mr-2' / >LinkedIn</a>
         <a className='text-white mt-2 flex flex-row cursor-pointer hover:text-violet-600 items-center' href='https://github.com/Aakash-a3an'><FaGithub className='mr-2' />GitHub</a>
         <a className='text-white mt-2 flex flex-row cursor-pointer hover:text-violet-600 items-center' href='https://www.instagram.com/ineffable._soul'><PiInstagramLogoFill className='mr-2' />Instagram</a>
@@ -28,7 +28,7 @@ const Footer = () => {
       </div>
       </div>
       <div className='lg:flex h-[20rem] w-[20rem] m-[3rem] hidden '> <img className='rounded-full object-cover' src={fifth} alt="" /> </div>
-      <div><p className='text-white lg:mt-[40%] mt-[100%] lg:text-3xl text-md font-Sugiyama mr-[3rem] lg:mr-[6rem]'>"He who laughs most, Learns best"</p></div>
+      <div><p className='text-white lg:mt-[40%] mt-[100%] lg:text-3xl text-md font-Sugiyama mr-[1rem] lg:mr-[6rem]'>"He who laughs most, Learns best"</p></div>
       </div>
 
     </footer>
