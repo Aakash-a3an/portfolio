@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    background: transparent;
+}
+
+body {
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+#intro {
+    max-width: 75rem;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin:0 auto;
+    top: -3rem;
+}
+
+.hero {
+    background-image: url(./assets/Prof.png);
+    background-size: cover;
+    background-position: center center;
+    height: 400px;
+    width: 400px;
+    box-shadow: 0 5px 5px 5px rgba(0,0,0,0.2);
+    animation: animate 5s ease-in-out infinite;
+    transition: all 1s ease-in-out;
+}
+
+@media (min-width:1024px) {
+    .hero{
+        background-size: cover;
+        height: 400px;
+        width: 800px;
+    }
+}
+
+@keyframes animate {
+    0%,100%{
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+
+    50%{
+        border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+    }
+}
+
+.active {
+    color: blueviolet;
+}
+
+h1 .active{
+    color: black
+}
