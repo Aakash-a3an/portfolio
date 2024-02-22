@@ -17,12 +17,12 @@ const About = () => {
           </div>
         </div>
           <div className="flex flex-wrap justify-center w-full">
-            <button className='bg-black hover:bg-white hover:text-black shadow-xl  py-2 px-3 w-24 flex-col items-center m-4 rounded-full text-white shadow-2xl'> React Js </button>
-            <button className='bg-black hover:bg-white hover:text-black shadow-xl  py-2 px-3 w-24 flex-col items-center m-4 rounded-full text-white shadow-2xl'> Python </button>
-            <button className='bg-black hover:bg-white hover:text-black shadow-xl  py-2 px-3 w-24 flex-col items-center m-4 rounded-full text-white shadow-2xl'> Javascript </button>
-            <button className='bg-black hover:bg-white hover:text-black shadow-xl  py-2 px-3 w-24 flex-col items-center m-4 rounded-full text-white shadow-2xl'> SQL </button>
-            <button className='bg-black hover:bg-white hover:text-black shadow-xl  py-2 px-3 w-24 flex-col items-center m-4 rounded-full text-white shadow-2xl'> NoSQL </button>
-            <button className='bg-black hover:bg-white hover:text-black shadow-xl  py-2 px-3 w-24 flex-col items-center m-4 rounded-full text-white shadow-2xl'> Node Js </button>
+            <button className='bg-black hover:bg-white hover:text-black  py-2 px-3 w-24 flex-col items-center m-4 rounded-full text-white shadow-2xl'> React Js </button>
+            <button className='bg-black hover:bg-white hover:text-black  py-2 px-3 w-24 flex-col items-center m-4 rounded-full text-white shadow-2xl'> Python </button>
+            <button className='bg-black hover:bg-white hover:text-black  py-2 px-3 w-24 flex-col items-center m-4 rounded-full text-white shadow-2xl'> Javascript </button>
+            <button className='bg-black hover:bg-white hover:text-black  py-2 px-3 w-24 flex-col items-center m-4 rounded-full text-white shadow-2xl'> SQL </button>
+            <button className='bg-black hover:bg-white hover:text-black  py-2 px-3 w-24 flex-col items-center m-4 rounded-full text-white shadow-2xl'> NoSQL </button>
+            <button className='bg-black hover:bg-white hover:text-black  py-2 px-3 w-24 flex-col items-center m-4 rounded-full text-white shadow-2xl'> Node Js </button>
           </div>
         </div>
       </div>
