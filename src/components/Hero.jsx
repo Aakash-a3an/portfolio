@@ -3,7 +3,7 @@ import hi from '../assets/hi.png'
 import { TbCloudDownload } from "react-icons/tb";
 import { BsMouse } from "react-icons/bs";
 import {Link} from 'react-scroll';
-import resume from '../assets/Resume_AAKASH.pdf'
+import resume from '../assets/AAKASH_Resume.pdf'
 
 
 const Hero = () => {
