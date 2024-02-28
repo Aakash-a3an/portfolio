@@ -54,9 +54,10 @@ body {
 }
 
 .active {
-    color: #d64aff;
+    color: #a78bfa;
 }
 
 h1 .active{
     color: black;
 }
+
