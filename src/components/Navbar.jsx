@@ -12,8 +12,8 @@ const Navbar = () => {
   const [nav, setNav] = useState(false)
 
   return (
-    <nav className="lg:h-[5rem] h-[3rem] w-[100vw] m-auto flex justify-between items-center max-w-[75rem] sticky top-0 bg-white rounded-lg z-50">
-      <h1 className='font-UnifrakturCook lg:text-5xl text-3xl ml-6 cursor-pointer'><Link to='intro' spy={true} smooth={true} offset={-100} duration={500} >Aakash</Link></h1>
+    <nav className="lg:h-[5rem] h-[4rem] w-[100vw] m-auto flex justify-between items-center max-w-[75rem] sticky top-0 bg-white rounded-lg z-50">
+      <h1 className='font-Arizonia font-bold lg:text-4xl text-3xl ml-6 cursor-pointer'><Link to='intro' spy={true} smooth={true} offset={-100} duration={500} >Aakash</Link></h1>
       <div className='md:flex md:flex-row hidden font-semibold lg:text-md text-sm font-Poppins '> 
         <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-100} duration={500} className='cursor-pointer text-gray-500  hover:text-violet-600 transition-all duration-300'>Home</Link> 
         <Link activeClass='active' to='about' spy={true} smooth={true} offset={-40} duration={500} className='mx-16 cursor-pointer text-gray-500 hover:text-violet-600 transition-all duration-300'>About</Link>
@@ -21,7 +21,7 @@ const Navbar = () => {
       </div>
       <Link activeClass='active' to='contact' spy={true} smooth={true} offset={-40} duration={500}><button className='md:flex md:flex-row hidden bg-black text-white transition duration-200 rounded-full lg:px-3 lg:py-2 lg:pr-4 items-center border  border-gray-300 hover:border-transparent hover:shadow-md dark:hover:shadow-xl font-semibold'> <FiMessageSquare className='m-2'/>
       Contact me</button></Link>
-      <div onClick={ ()=> setNav(!nav)} className='cursor-pointer z-50 text-gray-500 hover:text-violet-600 transition-all duration-300 mr-10 md:hidden'> 
+      <div onClick={ ()=> setNav(!nav)} className='cursor-pointer z-50 text-gray-500 hover:text-violet-600 transition-all duration-500 mr-8 md:hidden'> 
         {nav ? <FaTimes size={30} /> : <IoMenu size={30} />}
       </div>
 

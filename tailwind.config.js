@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        UnifrakturCook: ["UnifrakturCook", "cursive"],
+        Arizonia: ["Arizonia", "cursive"],
         Poppins: ["Poppins", "sans-serif"],
       },
     },

@@ -28,7 +28,7 @@ const Footer = () => {
         </div>
       </div>
       <div className='lg:flex h-[20rem] w-[20rem] m-[3rem] hidden '> <img className='rounded-full object-cover' src={fifth} alt="" /> </div>
-      <div><p className='lg:flex text-white lg:mt-[40%] mt-[100%] lg:text-3xl text-md font-Sugiyama mr-[1rem] lg:mr-[6rem] hidden'>"He who laughs most, Learns best"</p></div>
+      <div><p className='lg:flex text-white lg:mt-[40%] mt-[100%] lg:text-3xl text-md font-Arizonia mr-[1rem] lg:mr-[6rem] hidden'>"He who laughs most, Learns best"</p></div>
       </div>
 
     </footer>
