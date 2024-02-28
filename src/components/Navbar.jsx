@@ -12,7 +12,7 @@ const Navbar = () => {
   const [nav, setNav] = useState(false)
 
   return (
-    <nav className="navbar lg:h-[5rem] ml-3 h-[4rem] w-[100vw] mx-auto px-4 py-8 flex items-center justify-between max-w-[75rem] sticky top-0 z-20 bg-white">
+    <nav className="navbar lg:h-[5rem] ml-3 h-[4rem] w-[100vw] mx-auto px-4 py-8 flex items-center justify-between max-w-[75rem]  sticky top-0 z-20 bg-white">
       <h1 className='font-Sugiyama lg:text-5xl text-3xl cursor-pointer'><Link to='intro' spy={true} smooth={true} offset={-100} duration={500} >Aakash</Link></h1>
       <div className='md:flex md:flex-row hidden font-semibold lg:text-md text-sm font-Poppins '> 
         <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-100} duration={500} className='cursor-pointer text-gray-500  hover:text-violet-600 transition-all duration-300'>Home</Link> 
@@ -26,7 +26,7 @@ const Navbar = () => {
       </div>
 
         {nav && (
-          <div className='flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-black text-white font-Poppins font-semibold'> 
+          <div className='flex flex-col justify-center items-center absolute top-[5rem] right-[3rem] w-[15rem] h-[20rem] rounded-2xl bg-black text-white font-Poppins font-semibold'> 
             <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-100} duration={500} className='px-4 cursor-pointer py-6 text-xl'>Home</Link> 
             <Link activeClass='active' to='about' spy={true} smooth={true} offset={-40} duration={500} className='px-4 cursor-pointer py-6 text-xl'>About</Link>
             <Link activeClass='active' to='projects' spy={true} smooth={true} offset={-100} duration={500} className='px-4 cursor-pointer py-6 text-xl'>Projects</Link>
