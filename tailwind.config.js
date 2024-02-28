@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        Sugiyama: ["Dr Sugiyama", "cursive"],
+        UnifrakturCook: ["UnifrakturCook", "cursive"],
         Poppins: ["Poppins", "sans-serif"],
       },
     },
