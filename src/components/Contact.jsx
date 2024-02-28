@@ -20,7 +20,7 @@ const Contact = () => {
     };
   return (
     <div id="contact" className='flex justify-center flex-col items-center h-[100vh] w-[vw]'>
-      <div className='lg:h-[29rem] h-[32rem] lg:w-[60rem] w-[20rem] flex justify-center rounded-2xl flex-col items-center bg-[#eeb4ff] shadow-xl overflow-hidden'>
+      <div className='lg:h-[29rem] h-[32rem] lg:w-[60rem] w-[25rem] flex justify-center rounded-2xl flex-col items-center bg-[#eeb4ff] shadow-xl overflow-hidden'>
       <h1 className='lg:text-4xl text-3xl mb-4  text-white font-Poppins font-semibold '>Contact Me</h1>
       <span className='lg:mx-4 mx-10 lg:font-medium font-normal text-white'>Please fill out the form below to discuss any work opportunities.</span>
       <form className='flex flex-col w-[90vw] lg:max-w-[60rem] max-w-[25rem] font-medium justify-center items-center' ref={form} onSubmit={sendEmail}>
