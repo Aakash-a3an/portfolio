@@ -9,6 +9,7 @@ export default {
       fontFamily: {
         Arizonia: ["Arizonia", "cursive"],
         Poppins: ["Poppins", "sans-serif"],
+        Sugiyama: ["Dr Sugiyama", "cursive"]
       },
     },
   },

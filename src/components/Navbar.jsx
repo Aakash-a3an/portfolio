@@ -12,8 +12,8 @@ const Navbar = () => {
   const [nav, setNav] = useState(false)
 
   return (
-    <nav className="lg:h-[5rem] h-[4rem] w-[100vw] m-auto flex justify-between items-center max-w-[75rem] sticky top-0 bg-white rounded-lg z-50">
-      <h1 className='font-Arizonia font-bold lg:text-4xl text-3xl ml-6 cursor-pointer'><Link to='intro' spy={true} smooth={true} offset={-100} duration={500} >Aakash</Link></h1>
+    <nav className="navbar lg:h-[5rem] h-[4rem] w-[100vw] m-auto flex justify-between items-center max-w-[75rem] sticky top-0 bg-white rounded-lg z-50">
+      <h1 className='font-Sugiyama lg:text-5xl text-4xl ml-6 cursor-pointer'><Link to='intro' spy={true} smooth={true} offset={-100} duration={500} >Aakash</Link></h1>
       <div className='md:flex md:flex-row hidden font-semibold lg:text-md text-sm font-Poppins '> 
         <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-100} duration={500} className='cursor-pointer text-gray-500  hover:text-violet-600 transition-all duration-300'>Home</Link> 
         <Link activeClass='active' to='about' spy={true} smooth={true} offset={-40} duration={500} className='mx-16 cursor-pointer text-gray-500 hover:text-violet-600 transition-all duration-300'>About</Link>
