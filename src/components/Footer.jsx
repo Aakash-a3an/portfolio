@@ -16,9 +16,9 @@ const Footer = () => {
     <footer className='h-[60vh] w-[99vw] rounded-t-3xl bg-black '>
       <div className='flex flex-row justify-between'>
       <div>
-      <p className='font-semibold font-Poppins text-white lg:p-8 p-6 lg:mx-8 mx-2'>Copyright &#169; 2024 Aakash. All right received.</p>
-        <p className='font-medium font-Poppins text-white px-8 lg:mx-8 mx-0 lg:mt-10 mt-4 '>Social Media Links:</p>
-        <div className= 'lg:mx-16 mx-8 flex flex-col max-w-[20rem]'>
+      <p className='font-semibold font-Poppins text-white mt-8 lg:p-8 p-6 lg:mx-8 mx-2'>Copyright &#169; 2024 Aakash. All right received.</p>
+        <p className='font-medium font-Poppins text-white px-8 lg:mx-8 mx-0 lg:mt-4 mt-4 '>Social Media Links:</p>
+        <div className= 'lg:mx-16 mx-8 flex flex-col'>
           <a className='text-white mt-4 flex flex-row cursor-pointer hover:text-violet-600 items-center' href='https://www.linkedin.com/in/aakash-n0dev/'><BsLinkedin className='mr-2' / >LinkedIn</a>
           <a className='text-white mt-2 flex flex-row cursor-pointer hover:text-violet-600 items-center' href='https://github.com/Aakash-a3an'><FaGithub className='mr-2' />GitHub</a>
           <a className='text-white mt-2 flex flex-row cursor-pointer hover:text-violet-600 items-center' href='https://www.instagram.com/ineffable._soul'><PiInstagramLogoFill className='mr-2' />Instagram</a>
