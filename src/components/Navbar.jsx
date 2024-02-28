@@ -27,10 +27,10 @@ const Navbar = () => {
 
         {nav && (
           <div className='flex flex-col justify-center items-center absolute top-[5rem] right-[3rem] w-[15rem] h-[20rem] rounded-2xl bg-black text-white font-Poppins font-semibold'> 
-            <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-100} duration={500} className='px-4 cursor-pointer py-6 text-xl'>Home</Link> 
-            <Link activeClass='active' to='about' spy={true} smooth={true} offset={-40} duration={500} className='px-4 cursor-pointer py-6 text-xl'>About</Link>
-            <Link activeClass='active' to='projects' spy={true} smooth={true} offset={-100} duration={500} className='px-4 cursor-pointer py-6 text-xl'>Projects</Link>
-            <Link activeClass='active' to='contact' spy={true} smooth={true} offset={-100} duration={500} className='px-4 cursor-pointer py-6 text-xl'>Contact</Link>
+            <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-100} duration={500} className='px-4 cursor-pointer py-6 text-xl' onClick={() => setNav(!nav)}>Home</Link> 
+            <Link activeClass='active' to='about' spy={true} smooth={true} offset={-40} duration={500} className='px-4 cursor-pointer py-6 text-xl' onClick={() => setNav(!nav)}>About</Link>
+            <Link activeClass='active' to='projects' spy={true} smooth={true} offset={-100} duration={500} className='px-4 cursor-pointer py-6 text-xl' onClick={() => setNav(!nav)}>Projects</Link>
+            <Link activeClass='active' to='contact' spy={true} smooth={true} offset={-100} duration={500} className='px-4 cursor-pointer py-6 text-xl' onClick={() => setNav(!nav)}>Contact</Link>
           </div>
         )
         }
